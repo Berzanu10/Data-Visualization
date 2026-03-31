@@ -13,7 +13,7 @@ col_country = 'country name'
 
 # Selecting a diverse and broad group of 15 countries to avoid "chart junk" while showing a rich comparison
 countries = [
-    'Turkey', 'Finland', 'United States', 'Germany', 
+    'Türkiye', 'Finland', 'United States', 'Germany', 
     'India', 'China','Afghanistan', 'Japan']
 df_filtered = df[df[col_country].isin(countries)]
 
